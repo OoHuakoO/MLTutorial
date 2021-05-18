@@ -738,4 +738,4 @@ decoder.eval()
 searcher = GreedySearchDecoder(encoder, decoder)
 
 # Begin chatting (uncomment and run the following line to begin)
-# evaluateInput(encoder, decoder, searcher, voc)
+evaluateInput(encoder, decoder, searcher, voc)
