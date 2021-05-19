@@ -25,17 +25,3 @@ cov_matrix = cov(X.T, bias=1)
 print("Covariance matrix: ")
 print(cov_matrix)
 print("\n")
-
-# Compute the Principal Components using Eigenvectors:
-eigenvalue, eigen_vectors = np.linalg.eig(cov_matrix)
-
-# compute eigenvalue:
-print("Eigenvalue: ")
-print(eigenvalue)
-print("\n")
-
-# compute eigenvalue:
-print("Eigen vectors: ")
-eigen_vectors = pd.DataFrame(eigen_vectors, columns=['v1', 'v2', 'v3'])
-print(eigen_vectors)
-print("\n")
